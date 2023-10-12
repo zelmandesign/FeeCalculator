@@ -1,0 +1,9 @@
+version: '3.8' 
+
+services:
+  my-php-apache-app:
+    image: my-php-apache-app 
+    container_name: range-based-fee-calculator
+    ports:
+      - "8080:80" 
+    restart: unless-stopped 
